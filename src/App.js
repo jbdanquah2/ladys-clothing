@@ -3,16 +3,9 @@ import Navigation from './routes/navigation/navigation.component'
 import { Routes, Route } from 'react-router-dom'
 import { Fragment } from 'react';
 import Authentication from './routes/authentication/authentication.component';
+import Shop from './routes/shop/shop.component';
 
-const Shop = () => {
-  return (
-    <Fragment>
-      <div>
-        This is the shop
-      </div>
-    </Fragment>
-  )
-}
+
 const App = () => {
   return (
     <Routes>
